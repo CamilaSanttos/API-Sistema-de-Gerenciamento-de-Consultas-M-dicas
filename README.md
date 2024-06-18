@@ -6,6 +6,10 @@
 
 **Matrícula:** 202208699758
 
+**Aluno:** Jeferson Martins
+
+**Matrícula:** 202208980392
+
 Este projeto CRUD foi desenvolvido como parte da disciplina de Programação Orientada a Objetos em Java. Utiliza o framework Spring e o sistema de gerenciamento de dependências Maven, com uma base de dados H2, para servir como uma API REST.
 
 ### Paciente
@@ -57,36 +61,36 @@ Este projeto CRUD foi desenvolvido como parte da disciplina de Programação Ori
 ## Endpoints
 
 ### Paciente
-- **GET**:      https://localhost:8090/api/v1/pacientes
-- **GET**:      https://localhost:8090/api/v1/pacientes/{id}
-- **POST**:     https://localhost:8090/api/v1/pacientes
-- **PUT**:      https://localhost:8090/api/v1/pacientes/{id}
-- **DELTE**:    https://localhost:8090/api/v1/pacientes/{id}
+- **GET**:      http://localhost:8090/api/v1/pacientes
+- **GET**:      http://localhost:8090/api/v1/pacientes/{id}
+- **POST**:     http://localhost:8090/api/v1/pacientes
+- **PUT**:      http://localhost:8090/api/v1/pacientes/{id}
+- **DELTE**:    http://localhost:8090/api/v1/pacientes/{id}
 
 ### Méddico
-- **GET**:      https://localhost:8090/api/v1/medicos
-- **GET**:      https://localhost:8090/api/v1/medicos/{id}
-- **POST**:     https://localhost:8090/api/v1/medicos
-- **PUT**:      https://localhost:8090/api/v1/medicos/{id}
-- **DELTE**:    https://localhost:8090/api/v1/medicos/{id}
+- **GET**:      http://localhost:8090/api/v1/medicos
+- **GET**:      http://localhost:8090/api/v1/medicos/{id}
+- **POST**:     http://localhost:8090/api/v1/medicos
+- **PUT**:      http://localhost:8090/api/v1/medicos/{id}
+- **DELTE**:    http://localhost:8090/api/v1/medicos/{id}
 
 ### Consulta
-- **GET**:      https://localhost:8090/api/v1/consultas
-- **GET**:      https://localhost:8090/api/v1/consultas/{id}
-- **POST**:     https://localhost:8090/api/v1/consultas
-- **PUT**:      https://localhost:8090/api/v1/consultas/{id}
-- **DELTE**:    https://localhost:8090/api/v1/consultas/{id}
+- **GET**:      http://localhost:8090/api/v1/consultas
+- **GET**:      http://localhost:8090/api/v1/consultas/{id}
+- **POST**:     http://localhost:8090/api/v1/consultas
+- **PUT**:      http://localhost:8090/api/v1/consultas/{id}
+- **DELTE**:    http://localhost:8090/api/v1/consultas/{id}
 
 ### Receita
-- **GET**:      https://localhost:8090/api/v1/receitas
-- **GET**:      https://localhost:8090/api/v1/receitas/{id}
-- **POST**:     https://localhost:8090/api/v1/receitas
-- **PUT**:      https://localhost:8090/api/v1/receitas/{id}
-- **DELTE**:    https://localhost:8090/api/v1/receitas/{id}
+- **GET**:      http://localhost:8090/api/v1/receitas
+- **GET**:      http://localhost:8090/api/v1/receitas/{id}
+- **POST**:     http://localhost:8090/api/v1/receitas
+- **PUT**:      http://localhost:8090/api/v1/receitas/{id}
+- **DELTE**:    http://localhost:8090/api/v1/receitas/{id}
 
 ### Pagamento
-- **GET**:      https://localhost:8090/api/v1/pagamentos
-- **GET**:      https://localhost:8090/api/v1/pagamentos/{id}
-- **POST**:     https://localhost:8090/api/v1/pagamentos
-- **PUT**:      https://localhost:8090/api/v1/pagamentos/{id}
-- **DELTE**:    https://localhost:8090/api/v1/pagamentos/{id}
+- **GET**:      http://localhost:8090/api/v1/pagamentos
+- **GET**:      http://localhost:8090/api/v1/pagamentos/{id}
+- **POST**:     http://localhost:8090/api/v1/pagamentos
+- **PUT**:      http://localhost:8090/api/v1/pagamentos/{id}
+- **DELTE**:    http://localhost:8090/api/v1/pagamentos/{id}
